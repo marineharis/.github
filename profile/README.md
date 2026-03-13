@@ -25,9 +25,9 @@ Marine Haris provides an open-source platform for maritime security operations, 
 │  │ (2000/0183) │    │             │    │ Marine_Haris Edge   │  │
 │  └─────────────┘    └─────────────┘    └──────────┬──────────┘  │
 │                                                   │             │
-│                                         ┌────────▼────────┐    │
-│                                         │  Tailscale VPN  │    │
-│                                         └────────┬────────┘    │
+│                                         ┌────────▼────────┐     │
+│                                         │  Tailscale VPN  │     │
+│                                         └────────┬────────┘     │
 └──────────────────────────────────────────────────┼──────────────┘
                                                    │
                                                    │ Encrypted
@@ -35,13 +35,13 @@ Marine Haris provides an open-source platform for maritime security operations, 
                                                    │
 ┌──────────────────────────────────────────────────┼──────────────┐
 │                         MSOC LAYER               ▼              │
-│  ┌─────────────────┐    ┌─────────────────────────────────┐    │
-│  │  Haris Gateway  │◀───│       ELK Stack / Logs          │    │
-│  └────────┬────────┘    └─────────────────────────────────┘    │
-│           │                                                      │
-│           ▼                                                      │
+│  ┌─────────────────┐    ┌─────────────────────────────────┐     │
+│  │  Haris Gateway  │◀───│       ELK Stack / Logs          │     │
+│  └────────┬────────┘    └─────────────────────────────────┘     │
+│           │                                                     │
+│           ▼                                                     │
 │  ┌─────────────────┐                                            │
-│  │ Haris Citadel   │  Central monitoring & analysis            │
+│  │ Haris Citadel   │  Central monitoring & analysis             │
 │  └─────────────────┘                                            │
 └─────────────────────────────────────────────────────────────────┘
 ```
@@ -82,7 +82,7 @@ MIT License - see individual repositories for details.
 
 ## Contact
 
-For technical support or security concerns: ahmdngi@hotmail.com
+For technical support or security concerns: marineharis@ahmdngi.io
 
 ---
 
